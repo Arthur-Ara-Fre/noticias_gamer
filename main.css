@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px;
+    background-color: brown;
+    font-size:  30px;
+}
+
+body h2,
+.topic nav a,
+form button{
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+}
+
+.topic h3, body p, input, textarea{
+    font-family: "Roboto", sans-serif;
+}
+
+header nav li{
+    display: inline;
+    font-size: 24px;
+    padding: 10px;
+}
+
+header nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(7, 13, 73);
+} 
+
+.container > img{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container h2,
+.topic h2{
+    margin: auto;
+    display: blox;
+    font-size: 90px;
+    text-align: center;
+    background-color: rgb(87, 49, 49);
+}
+
+.sobre-nos p,
+.sobre-nos h2{
+    color: rgb(223, 226, 41);
+
+}
+
+.sobre-nos p{
+    font-size:45px ;
+    width: 50%;
+    margin: auto;
+
+}
+
+#trending h2{
+    background-color: brown;
+}
+
+#trending h3{
+    color: brown;
+}
+
+#noticias h2{
+    background-color: aqua;
+}
+
+#noticias h3{
+    color: aqua;
+}
+
+.topic a{
+    margin-left: 150px;
+    margin-right: 100px;
+    display: inline;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: bisque;
+}
+
+.topic img{
+    height: 700px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+.topic article{
+    display: flex;
+}
+
+.topic article h3{
+    font-size: 75px;
+}
+
+#contato .container h2{
+    color: rgb(9, 170, 89);
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    display: blox;
+    font-size: 60px;
+    text-align: center;
+}
+
+#contato h3{
+    font-size:  40px;
+    text-align: center;
+    font-family: "Bungee", sans-serif;
+    font-weight: normal;
+    color: rgb(9, 170, 89);
+}
+
+#contato p{
+    font-size: 20px;
+}
+.contact-methods{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.social-links img{
+    height: 200px;
+}
+
+.social-links li{
+    display: inline;
+    margin-right: 30px;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 360px;
+    margin-bottom: 10px;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+}
+
+form button{
+    background-color: brown;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: green;
+}
+
+footer{
+    padding: 16px 0;
+    text-align: center;
+    color: bisque;
+}
